@@ -1,0 +1,171 @@
+
+
+/* Main Header */
+
+header {
+	padding: 2em 0 2em 0;
+	background-color: #b52b65;
+	color: #f0d1cb;
+	background-attachment: fixed;
+	background-image: url("images/Background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-bottom-width:10px;
+	border-bottom-color:#621055;
+	border-bottom-style: solid;
+}
+
+header h1 {
+	font-family: 'Questrial', Tahoma, sans-serif;
+	color: #f0d1cb;
+	margin: 0px;
+	font-size: 60px;
+	text-align: center;
+}
+
+header h2 {
+	font-family: 'Questrial', Tahoma, sans-serif;
+	color: #f0d1cb;
+	margin: 0px;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* Headshot Image Settings*/
+
+.rounded-corners {
+	border-radius: 100%;
+}
+	
+	.headshot {
+	border: 10px solid #621055;
+	border-radius: 100%;
+	display: inline-block;
+	}
+
+/* Body Styles*/
+
+.intro {
+	text-align: justify;
+  	margin: 20px 30% 30px 30%;
+	color: #621055
+}
+
+.intro h1 {
+	text-align:center;
+	color: #621055
+}
+
+/* Career Section */
+
+.career {
+	float:left;
+	width: 70%;
+	text-align: justify;
+	padding: 0 0 0 100px;
+    overflow: hidden;
+}
+
+.career-photo {
+	margin-top: 30px;
+	margin-left: 40px;
+	float:right;
+}
+
+.about-career {
+	padding: 20px 0% 30px 0%;
+	background-color:#f0d1cb;
+}
+
+/*Personal Section */
+.personal {
+	float:right;
+	width: 70%;
+	text-align: justify;
+	padding: 10px 100px 0 0;
+    overflow: hidden;
+}
+
+.personal-photo {
+	margin-top: 30px;
+	margin-right: 40px;
+	margin-left: 40px;
+	float:left;
+}
+
+.about-personal {
+	padding: 20px 30px 30px 0;
+}
+
+/* Contact Section */
+
+.contact {
+	float: left;
+	text-align: justify;
+	padding: 0 20px  0 37%;
+    overflow: hidden;
+}
+
+.contact-photo {
+	margin-top: 50px;
+	margin-left: 40px;
+	float:right;
+}
+
+.about-contact {
+	padding: 40px 0% 50px 0%;
+	background-color:#f0d1cb;
+}
+
+.footer {
+	padding: 10px 0 0 0; 
+	align-items: center;
+	text-align: center;
+	font-size: small;
+}
+
+.map {
+	text-align: center;
+	border: 5px solid #621055;
+	padding: 0 0 0 0
+}
+
+/* Typefaces */	
+
+h1, h2, h3 {
+	font-family: 'Questrial', Tahoma, sans-serif;
+	color: #621055;
+	font-weight: 500;
+}
+  
+h1 { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+  
+p  {
+  font-family: 'Questrial', Tahoma, sans-serif;
+  color: #621055;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+  
+li {
+   font-family: 'Questrial', Tahoma, sans-serif;
+   line-height: 1.5em;
+   margin-bottom: 0;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+a:link { color:#621055; }
+a:visited { color: #b52b65; }
+a:hover { color: #ed6663; }
+a:active { color: #ffa372; }
+a:hover {
+	text-decoration: underline;	
+}
+
