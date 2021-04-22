@@ -7,7 +7,7 @@ header {
 	background-color: #b52b65;
 	color: #f0d1cb;
 	background-attachment: fixed;
-	background-image: url("Images/Background.jpeg");
+	background-image: url("images/Background.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -32,6 +32,14 @@ header h2 {
 	text-align: center;
 }
 
+header h3 {
+	font-family: 'Questrial', Tahoma, sans-serif;
+	color: #f0d1cb;
+	margin: 0px;
+	font-size: 60px;
+	text-align: center;
+}
+
 /* Headshot Image Settings*/
 
 .rounded-corners {
@@ -52,7 +60,7 @@ header h2 {
 	color: #621055
 }
 
-.intro h1 {
+.intro h3 {
 	text-align:center;
 	color: #621055
 }
@@ -119,7 +127,7 @@ header h2 {
 }
 
 .footer {
-	padding: 10px 0 0 0; 
+	height: 50px; 
 	align-items: center;
 	text-align: center;
 	font-size: small;
@@ -169,3 +177,14 @@ a:hover {
 	text-decoration: underline;	
 }
 
+/* Spacing */
+
+hr {
+	display: block;
+ 	 margin-top: 0.5em;
+ 	 margin-bottom: 0.5em;
+ 	 margin-left: auto;
+ 	 margin-right: auto;
+ 	 border-style: inset;
+ 	 border-width: 1px;
+}
